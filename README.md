@@ -44,7 +44,7 @@
 </head>
 <body>
 
-<h1>🛍️ Andrian Online Shop</h1>
+<h1>🛍️ REAL HIGH</h1>
 
 <!-- Products -->
 <div class="product">
