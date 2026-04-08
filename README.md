@@ -1,81 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>REAL HIGH</title>
-    <style>
-        body {
-            font-family: Arial;
-            background-color: #F5F5F5;
-            text-align: center;
-        }
-
-        h1 {
-            background-color: #333;
-            color: white;
-            padding: 15px;
-        }
-
-        .product {
-            background: white;
-            margin: 20px;
-            padding: 15px;
-            border-radius: 10px;
-            display: inline-block;
-            width: 200px;
-        }
-
-        .product img {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        button {
-            background-color: green;
-            color: white;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: darkgreen;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REAL HIGH</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <h1>REAL HIGH</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<h1>🛍️ REAL HIGH</h1>
+  <section id="home">
+    <div class="banner">
+      <h2>Welcome to REAL HIGH!</h2>
+      <p>Streetwear inspired by urban culture.</p>
+    </div>
+  </section>
 
-<img src="background.jpg" 
-     alt="Sample Image" width="1280" height="640" style="border-radius: 10px;">
+  <section id="shop">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="images/tshirt1.jpg" alt="T-shirt 1">
+        <h3>T-shirt 1</h3>
+        <p>₱799</p>
+      </div>
+      <div class="product">
+        <img src="images/hoodie1.jpg" alt="Hoodie 1">
+        <h3>Hoodie 1</h3>
+        <p>₱1,499</p>
+      </div>
+      <div class="product">
+        <img src="images/tshirt2.jpg" alt="T-shirt 2">
+        <h3>T-shirt 2</h3>
+        <p>₱899</p>
+      </div>
+    </div>
+  </section>
 
-<!-- Products -->
-<div class="product">
-    <img src="https://via.placeholder.com/200">
-    <h3>T-Shirt</h3>
-    <p>₱500</p>
-    <button onclick="buyItem('T-Shirt')">Buy Now</button>
-</div>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>REAL HIGH is a streetwear brand inspired by art, skateboarding, and urban street culture. Our goal is to create bold and expressive apparel for everyone who wants to stand out.</p>
+  </section>
 
-<div class="product">
-    <img src="https://via.placeholder.com/200">
-    <h3>Long sleeve</h3>
-    <p>₱500</p>
-    <button onclick="buyItem('Long sleeve')">Buy Now</button>
-</div>
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
 
-<div class="product">
-    <img src="https://via.placeholder.com/200">
-    <h3>Sando</h3>
-    <p>₱500</p>
-    <button onclick="buyItem('Sando')">Buy Now</button>
-</div>
-
-<script>
-function buyItem(product) {
-    alert("You selected: " + product);
-}
-</script>
-
+  <footer>
+    <p>&copy; 2026 REAL HIGH</p>
+  </footer>
 </body>
 </html>
