@@ -29,11 +29,6 @@
             border-radius: 10px;
         }
 
-        img.main-image {
-            width: 500px;
-            border-radius: 10px;
-        }
-
         button {
             background-color: green;
             color: white;
@@ -51,11 +46,6 @@
 
 <h1>🛍️ Andrian Online Shop</h1>
 
-<!-- Title at Image -->
-<h2>Title ng Image</h2>
-<img class="main-image" src="468780963_874775498105157_2166684103895548029_n.jpg" 
-     alt="Sample Image">
-
 <!-- Products -->
 <div class="product">
     <img src="https://via.placeholder.com/200">
@@ -66,16 +56,16 @@
 
 <div class="product">
     <img src="https://via.placeholder.com/200">
-    <h3>Loong sleeve</h3>
+    <h3>Long sleeve</h3>
     <p>₱500</p>
-    <button onclick="buyItem('Shoes')">Buy Now</button>
+    <button onclick="buyItem('Long sleeve')">Buy Now</button>
 </div>
 
 <div class="product">
     <img src="https://via.placeholder.com/200">
-    <h3>sando</h3>
+    <h3>Sando</h3>
     <p>₱500</p>
-    <button onclick="buyItem('Bag')">Buy Now</button>
+    <button onclick="buyItem('Sando')">Buy Now</button>
 </div>
 
 <script>
