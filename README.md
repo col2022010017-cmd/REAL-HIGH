@@ -46,6 +46,10 @@
 
 <h1>🛍️ REAL HIGH</h1>
 
+<!-- Main Image sa Body -->
+<img src="background.jpg" 
+     alt="Banner Image" width="1280" height="640" style="border-radius: 10px;">
+
 <!-- Products -->
 <div class="product">
     <img src="https://via.placeholder.com/200">
